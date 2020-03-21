@@ -4,8 +4,20 @@
  
  <hr>
  
- <h3>1 Anahtar kelime saydırma</h3> 
+ <h3>Anahtar kelime saydırma</h3> 
  
  <hr>
 
  <h3>Sayfa (URL) Sıralama</h3>
+ 
+ <hr>
+ 
+ <h3>Site Sıralama</h3>
+ 
+ <hr>
+ 
+ <h3>Semantik Analiz</h3>
+ 
+ <hr>
+ 
+ 
