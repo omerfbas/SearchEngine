@@ -1,6 +1,5 @@
 # SearchEngine
 
- <h2>  A Sample Search Engine using PHP </h2>
  
  <hr>
  
@@ -16,6 +15,19 @@
  <hr>
 
  <h3>Sayfa (URL) Sıralama</h3>
+ 
+ Verilen bir anahtar kelime kümesi ve bir URL kümesi için,
+ - Anahtar kelimelerin içeriklerde yer alma sayısına dayalı bir skor formülü tanımlandı.
+ -- Örneğin, direkt kelimelerin URL'de geçme sayısını toplayarak bir skorlama yapalım. Bu durumda 1. kelimenin 100 defa, 2. ve 3. Kelimenin 3'er defa geçtiği bir URL, her bir kelimenin 10'ar defa geçtiği bir URL'den daha fazla skor alacaktır.Yani, bu skorlama formülü iyi sonuçlar vermeyecektir.
+
+ - URL'ler skoruna göre sıralanır.
+ - Her bir URL için (bir web sayfası), sıralamasını, puanını ve her bir anahtar kelimenin kaç kez yer aldığının sayımını gösterir.
+
+ Örnek anahtar kelime kümesi: “ulusal, siber, güvenlik", örnek URL kümesi:
+ https://www.btk.gov.tr/tr-TR/Sayfalar/SG-SIBER-GUVENLIK-KURULU,
+ http://www.udhb.gov.tr/h-12-siber-guvenlik.html,
+ http://sibertehdit.com/ulusal-siber-guvenlik-stratejisi-ve-eylem-plani/
+
  
  <hr>
  
