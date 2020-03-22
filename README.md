@@ -49,6 +49,14 @@
  
  <h3>Semantik Analiz</h3>
  
+ - Verilen web siteleri içerisinde anahtar kelimelerle semantik olarak alakalı kelimeler olabilir. Örneğin, “ulusal" yerine “milli" kelimesi yer alabilir. Bu kelimelere “alakalı anahtar kelimeler" diyelim.
+ 
+ - Alakalı anahtar kelimeleri bulur ve yazdırır.
+ 
+ - Yinelemeli olarak 3. aşamadaki analizi yapar.
+ 
+ `esanlamli.xlsx` dosyası 14226 kelimenin eş anlamlılarını içermektedir.Semantik analiz için bu dosya `kelimeEkle.php` içerisinde görüldüğü gibi veritabanına kaydedilerek aramalarda kullanılması sağlanır.
+ 
  <hr>
  
  
