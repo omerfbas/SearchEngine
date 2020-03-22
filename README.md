@@ -1,7 +1,7 @@
-# SearchEngine
-
- 
- <hr>
+ ARAMA MOTORU
+ ============
+ Kocaeli Üniversitesi Bilgisayar Mühendisliği Bölümü Yazılım Lab. I Projesi
+ --------------------------------------------------------------------------
  
  <h3>Anahtar kelime saydırma</h3> 
  
