@@ -18,7 +18,7 @@
  
  Verilen bir anahtar kelime kümesi ve bir URL kümesi için,
  - Anahtar kelimelerin içeriklerde yer alma sayısına dayalı bir skor formülü tanımlandı.
- -- Örneğin, direkt kelimelerin URL'de geçme sayısını toplayarak bir skorlama yapalım. Bu durumda 1. kelimenin 100 defa, 2. ve 3. Kelimenin 3'er defa geçtiği bir URL, her bir kelimenin 10'ar defa geçtiği bir URL'den daha fazla skor alacaktır.Yani, bu skorlama formülü iyi sonuçlar vermeyecektir.
+ Örneğin, direkt kelimelerin URL'de geçme sayısını toplayarak bir skorlama yapalım. Bu durumda 1. kelimenin 100 defa, 2. ve 3. Kelimenin 3'er defa geçtiği bir URL, her bir kelimenin 10'ar defa geçtiği bir URL'den daha fazla skor alacaktır.Yani, bu skorlama formülü iyi sonuçlar vermeyecektir.
 
  - URL'ler skoruna göre sıralanır.
  - Her bir URL için (bir web sayfası), sıralamasını, puanını ve her bir anahtar kelimenin kaç kez yer aldığının sayımını gösterir.
@@ -32,6 +32,18 @@
  <hr>
  
  <h3>Site Sıralama</h3>
+ 
+ Verilen bir web sitesi kümesi ve bir anahtar kelime kümesi için,
+
+ - URL'de ve tüm alt URL'lerinde anahtar kelime yer alma sayılarına dayalı bir skor
+ formülü tanımlandı (derinlik 3, ana sayfa=1, ana sayfadan linklenmiş bir sayfa:2, ana
+ sayfadan linklenmiş bir sayfadan linklenmiş bir sayfa:3).
+
+ -	Web sitelerini anahtar kelimelerin yer alma sayılarına göre sıralanıyor (tüm alt URL'leri dahil)
+ -	Her URL için (bir web sitesi), sırasını, skorunu, alt URL'lerin ağaç yapısını ve her düğümdeki her bir anahtar kelimenin yer alma sayısı ile birlikte ekrana yazdırır.
+ 
+( Örnek anahtar kelime kümesi: “ulusal, siber, güvenlik" , örnek web sitesi kümesi: https://www.btk.gov.tr/, http://www.udhb.gov.tr/, http://sibertehdit.com/)
+
  
  <hr>
  
